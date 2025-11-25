@@ -1,0 +1,14 @@
+Install
+
+cd backend
+npm init -y
+npm i express mongoose bcryptjs jsonwebtoken cors dotenv express-validator
+npm i -D nodemon
+
+
+.env (example)
+
+PORT=4000
+MONGO_URI=mongodb://localhost:27017/frontend-intern
+JWT_SECRET=very_secret_key_here
+JWT_EXPIRES_IN=1d
